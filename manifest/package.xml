@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata"><version>32.0</version></Package>
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>32.0</version>
+    <types>
+        <members>DM002_Subscription</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Contact.Account_Number__c</members>
+        <members>Contact.Custom_Field__c</members>
+        <members>ResourceAbsence.Close_Date__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ResourceAbsence-Resource Absence Layout</members>
+        <name>Layout</name>
+    </types>
+</Package>
