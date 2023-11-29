@@ -1,6 +1,6 @@
 /** 
 * @author: ABBA
-* @date : Création 21/02/2019
+* @date : Création 29/11/2023
 * @description : This Class allows to handle Subscription data.
 */
 

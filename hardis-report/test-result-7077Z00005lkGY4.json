@@ -1,0 +1,1008 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 11,
+    "passing": 11,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "testStartTime": "Tue Nov 28 2023 7:12:07 AM",
+    "testExecutionTime": "4630 ms",
+    "testTotalTime": "4630 ms",
+    "commandTime": "303 ms",
+    "hostname": "https://nosoftware-page-7723-dev-ed.scratch.my.salesforce.com",
+    "orgId": "00D7Z0000005MeOUAU",
+    "username": "test-vj7ha04kcnfc@example.com",
+    "testRunId": "7077Z00005lkGY4",
+    "userId": "0057Z00000E9wQKQAZ",
+    "testRunCoverage": "99%",
+    "orgWideCoverage": "92%"
+  },
+  "tests": [
+    {
+      "Id": "07M7Z00000TkH22UAF",
+      "QueueItemId": "7097Z000003nb8CQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "blankAddress",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2pwQAC",
+        "Name": "GeocodingServiceTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 34,
+      "FullName": "GeocodingServiceTest.blankAddress"
+    },
+    {
+      "Id": "07M7Z00000TkH23UAF",
+      "QueueItemId": "7097Z000003nb8CQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "errorResponse",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2pwQAC",
+        "Name": "GeocodingServiceTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 7,
+      "FullName": "GeocodingServiceTest.errorResponse"
+    },
+    {
+      "Id": "07M7Z00000TkH24UAF",
+      "QueueItemId": "7097Z000003nb8CQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "successResponse",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2pwQAC",
+        "Name": "GeocodingServiceTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 5,
+      "FullName": "GeocodingServiceTest.successResponse"
+    },
+    {
+      "Id": "07M7Z00000TkH2WUAV",
+      "QueueItemId": "7097Z000003nb8DQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "testGetPagedPropertyList",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2q0QAC",
+        "Name": "TestPropertyController",
+        "NamespacePrefix": null
+      },
+      "RunTime": 1926,
+      "FullName": "TestPropertyController.testGetPagedPropertyList"
+    },
+    {
+      "Id": "07M7Z00000TkH2XUAV",
+      "QueueItemId": "7097Z000003nb8DQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "testGetPicturesNoResults",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2q0QAC",
+        "Name": "TestPropertyController",
+        "NamespacePrefix": null
+      },
+      "RunTime": 60,
+      "FullName": "TestPropertyController.testGetPicturesNoResults"
+    },
+    {
+      "Id": "07M7Z00000TkH2YUAV",
+      "QueueItemId": "7097Z000003nb8DQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "testGetPicturesWithResults",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2q0QAC",
+        "Name": "TestPropertyController",
+        "NamespacePrefix": null
+      },
+      "RunTime": 578,
+      "FullName": "TestPropertyController.testGetPicturesWithResults"
+    },
+    {
+      "Id": "07M7Z00000TkH2RUAV",
+      "QueueItemId": "7097Z000003nb8EQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "importSampleData",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2q1QAC",
+        "Name": "TestSampleDataController",
+        "NamespacePrefix": null
+      },
+      "RunTime": 754,
+      "FullName": "TestSampleDataController.importSampleData"
+    },
+    {
+      "Id": "07M7Z00000TkH2HUAV",
+      "QueueItemId": "7097Z000003nb8FQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "createFileFailsWhenIncorrectBase64Data",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2puQAC",
+        "Name": "FileUtilitiesTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 366,
+      "FullName": "FileUtilitiesTest.createFileFailsWhenIncorrectBase64Data"
+    },
+    {
+      "Id": "07M7Z00000TkH2IUAV",
+      "QueueItemId": "7097Z000003nb8FQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "createFileFailsWhenIncorrectFilename",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2puQAC",
+        "Name": "FileUtilitiesTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 81,
+      "FullName": "FileUtilitiesTest.createFileFailsWhenIncorrectFilename"
+    },
+    {
+      "Id": "07M7Z00000TkH2JUAV",
+      "QueueItemId": "7097Z000003nb8FQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "createFileFailsWhenIncorrectRecordId",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2puQAC",
+        "Name": "FileUtilitiesTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 484,
+      "FullName": "FileUtilitiesTest.createFileFailsWhenIncorrectRecordId"
+    },
+    {
+      "Id": "07M7Z00000TkH2KUAV",
+      "QueueItemId": "7097Z000003nb8FQAQ",
+      "StackTrace": null,
+      "Message": null,
+      "AsyncApexJobId": "7077Z00005lkGY4QAM",
+      "MethodName": "createFileSucceedsWhenCorrectInput",
+      "Outcome": "Pass",
+      "ApexClass": {
+        "Id": "01p7Z000006Q2puQAC",
+        "Name": "FileUtilitiesTest",
+        "NamespacePrefix": null
+      },
+      "RunTime": 335,
+      "FullName": "FileUtilitiesTest.createFileSucceedsWhenCorrectInput"
+    }
+  ],
+  "coverage": {
+    "coverage": [
+      {
+        "id": "01p7Z000006Q2ptQAC",
+        "name": "FileUtilities",
+        "totalLines": 17,
+        "lines": {
+          "3": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "15": 1,
+          "18": 1,
+          "22": 1,
+          "23": 1,
+          "24": 1,
+          "25": 1,
+          "26": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1
+        },
+        "totalCovered": 17,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7Z000006Q2pyQAC",
+        "name": "PropertyController",
+        "totalLines": 44,
+        "lines": {
+          "2": 1,
+          "3": 1,
+          "16": 1,
+          "25": 1,
+          "26": 0,
+          "27": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1,
+          "31": 0,
+          "32": 1,
+          "33": 1,
+          "35": 1,
+          "36": 1,
+          "38": 1,
+          "39": 1,
+          "40": 1,
+          "41": 1,
+          "45": 1,
+          "46": 1,
+          "47": 1,
+          "48": 1,
+          "49": 1,
+          "50": 1,
+          "52": 1,
+          "68": 1,
+          "69": 1,
+          "70": 1,
+          "71": 1,
+          "72": 1,
+          "73": 1,
+          "76": 1,
+          "77": 1,
+          "79": 1,
+          "88": 1,
+          "89": 1,
+          "93": 1,
+          "98": 1,
+          "99": 1,
+          "102": 1,
+          "104": 1,
+          "105": 1,
+          "108": 1,
+          "111": 1
+        },
+        "totalCovered": 42,
+        "coveredPercent": 95
+      },
+      {
+        "id": "01p7Z000006Q2pxQAC",
+        "name": "PagedResult",
+        "totalLines": 4,
+        "lines": {
+          "3": 1,
+          "6": 1,
+          "9": 1,
+          "12": 1
+        },
+        "totalCovered": 4,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7Z000006Q2pvQAC",
+        "name": "GeocodingService",
+        "totalLines": 36,
+        "lines": {
+          "5": 1,
+          "8": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "19": 1,
+          "20": 1,
+          "21": 1,
+          "22": 1,
+          "23": 1,
+          "24": 1,
+          "25": 1,
+          "26": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1,
+          "31": 1,
+          "32": 1,
+          "33": 1,
+          "34": 1,
+          "35": 1,
+          "36": 1,
+          "38": 1,
+          "39": 1,
+          "40": 1,
+          "41": 1,
+          "42": 1,
+          "44": 1,
+          "48": 1,
+          "50": 1
+        },
+        "totalCovered": 36,
+        "coveredPercent": 100
+      },
+      {
+        "id": "01p7Z000006Q2pzQAC",
+        "name": "SampleDataController",
+        "totalLines": 34,
+        "lines": {
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "14": 1,
+          "15": 1,
+          "20": 1,
+          "21": 1,
+          "22": 1,
+          "23": 1,
+          "25": 1,
+          "28": 1,
+          "29": 1,
+          "34": 1,
+          "35": 1,
+          "36": 1,
+          "37": 1,
+          "39": 1,
+          "40": 1,
+          "43": 1,
+          "44": 1,
+          "49": 1,
+          "50": 1,
+          "51": 1,
+          "52": 1,
+          "54": 1,
+          "57": 1,
+          "58": 1,
+          "59": 1,
+          "60": 1
+        },
+        "totalCovered": 34,
+        "coveredPercent": 100
+      }
+    ],
+    "records": [
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH22UAF",
+          "Name": "GeocodingServiceTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            20,
+            21,
+            23,
+            24,
+            26,
+            28,
+            29,
+            48,
+            50
+          ],
+          "uncoveredLines": [
+            13,
+            16,
+            19,
+            22,
+            25,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44
+          ]
+        },
+        "TestMethodName": "blankAddress",
+        "NumLinesCovered": 18,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pvQAC",
+          "Name": "GeocodingService"
+        },
+        "NumLinesUncovered": 18
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH23UAF",
+          "Name": "GeocodingServiceTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            8,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            18,
+            19,
+            21,
+            22,
+            24,
+            25,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            38,
+            39,
+            48,
+            50
+          ],
+          "uncoveredLines": [
+            14,
+            17,
+            20,
+            23,
+            26,
+            40,
+            41,
+            42,
+            44
+          ]
+        },
+        "TestMethodName": "errorResponse",
+        "NumLinesCovered": 27,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pvQAC",
+          "Name": "GeocodingService"
+        },
+        "NumLinesUncovered": 9
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH24UAF",
+          "Name": "GeocodingServiceTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            5,
+            8,
+            10,
+            11,
+            12,
+            13,
+            15,
+            16,
+            18,
+            19,
+            21,
+            22,
+            24,
+            25,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            42,
+            44,
+            48,
+            50
+          ],
+          "uncoveredLines": [
+            14,
+            17,
+            20,
+            23,
+            26
+          ]
+        },
+        "TestMethodName": "successResponse",
+        "NumLinesCovered": 31,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pvQAC",
+          "Name": "GeocodingService"
+        },
+        "NumLinesUncovered": 5
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2WUAV",
+          "Name": "TestPropertyController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            6,
+            9,
+            12
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testGetPagedPropertyList",
+        "NumLinesCovered": 4,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pxQAC",
+          "Name": "PagedResult"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2WUAV",
+          "Name": "TestPropertyController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2,
+            3,
+            16,
+            25,
+            27,
+            28,
+            29,
+            30,
+            32,
+            33,
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            52,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            76,
+            77,
+            79
+          ],
+          "uncoveredLines": [
+            26,
+            31,
+            88,
+            89,
+            93,
+            98,
+            99,
+            102,
+            104,
+            105,
+            108,
+            111
+          ]
+        },
+        "TestMethodName": "testGetPagedPropertyList",
+        "NumLinesCovered": 32,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pyQAC",
+          "Name": "PropertyController"
+        },
+        "NumLinesUncovered": 12
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2XUAV",
+          "Name": "TestPropertyController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2,
+            3,
+            16,
+            88,
+            89,
+            93,
+            98,
+            99
+          ],
+          "uncoveredLines": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            52,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            76,
+            77,
+            79,
+            102,
+            104,
+            105,
+            108,
+            111
+          ]
+        },
+        "TestMethodName": "testGetPicturesNoResults",
+        "NumLinesCovered": 8,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pyQAC",
+          "Name": "PropertyController"
+        },
+        "NumLinesUncovered": 36
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2XUAV",
+          "Name": "TestPropertyController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            6,
+            9,
+            12
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testGetPicturesNoResults",
+        "NumLinesCovered": 4,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pxQAC",
+          "Name": "PagedResult"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2YUAV",
+          "Name": "TestPropertyController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            2,
+            3,
+            16,
+            88,
+            89,
+            93,
+            98,
+            102,
+            104,
+            105,
+            108,
+            111
+          ],
+          "uncoveredLines": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            38,
+            39,
+            40,
+            41,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            52,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            76,
+            77,
+            79,
+            99
+          ]
+        },
+        "TestMethodName": "testGetPicturesWithResults",
+        "NumLinesCovered": 12,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pyQAC",
+          "Name": "PropertyController"
+        },
+        "NumLinesUncovered": 32
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2YUAV",
+          "Name": "TestPropertyController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            6,
+            9,
+            12
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "testGetPicturesWithResults",
+        "NumLinesCovered": 4,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pxQAC",
+          "Name": "PagedResult"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2RUAV",
+          "Name": "TestSampleDataController"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            14,
+            15,
+            20,
+            21,
+            22,
+            23,
+            25,
+            28,
+            29,
+            34,
+            35,
+            36,
+            37,
+            39,
+            40,
+            43,
+            44,
+            49,
+            50,
+            51,
+            52,
+            54,
+            57,
+            58,
+            59,
+            60
+          ],
+          "uncoveredLines": []
+        },
+        "TestMethodName": "importSampleData",
+        "NumLinesCovered": 34,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2pzQAC",
+          "Name": "SampleDataController"
+        },
+        "NumLinesUncovered": 0
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2HUAV",
+          "Name": "FileUtilitiesTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            29,
+            30
+          ],
+          "uncoveredLines": [
+            15,
+            18,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28
+          ]
+        },
+        "TestMethodName": "createFileFailsWhenIncorrectBase64Data",
+        "NumLinesCovered": 9,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2ptQAC",
+          "Name": "FileUtilities"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2IUAV",
+          "Name": "FileUtilitiesTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            29,
+            30
+          ],
+          "uncoveredLines": [
+            15,
+            18,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28
+          ]
+        },
+        "TestMethodName": "createFileFailsWhenIncorrectFilename",
+        "NumLinesCovered": 9,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2ptQAC",
+          "Name": "FileUtilities"
+        },
+        "NumLinesUncovered": 8
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2JUAV",
+          "Name": "FileUtilitiesTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            18,
+            22,
+            23,
+            24,
+            29,
+            30
+          ],
+          "uncoveredLines": [
+            25,
+            26,
+            28
+          ]
+        },
+        "TestMethodName": "createFileFailsWhenIncorrectRecordId",
+        "NumLinesCovered": 14,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2ptQAC",
+          "Name": "FileUtilities"
+        },
+        "NumLinesUncovered": 3
+      },
+      {
+        "ApexTestClass": {
+          "Id": "07M7Z00000TkH2KUAV",
+          "Name": "FileUtilitiesTest"
+        },
+        "Coverage": {
+          "coveredLines": [
+            3,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            15,
+            18,
+            22,
+            23,
+            24,
+            25,
+            26,
+            28
+          ],
+          "uncoveredLines": [
+            29,
+            30
+          ]
+        },
+        "TestMethodName": "createFileSucceedsWhenCorrectInput",
+        "NumLinesCovered": 15,
+        "ApexClassOrTrigger": {
+          "Id": "01p7Z000006Q2ptQAC",
+          "Name": "FileUtilities"
+        },
+        "NumLinesUncovered": 2
+      }
+    ],
+    "summary": {
+      "totalLines": 135,
+      "coveredLines": 133,
+      "orgWideCoverage": "92%",
+      "testRunCoverage": "99%"
+    }
+  }
+}
