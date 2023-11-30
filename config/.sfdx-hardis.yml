@@ -1,2 +1,4 @@
 deploymentPlan:
   packages: []
+projectName: PackageTest
+devHubAlias: DevHub_PackageTest
