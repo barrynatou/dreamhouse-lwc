@@ -22,6 +22,14 @@
       "versionNumber": "0.1.0.NEXT",
       "default": false,
       "versionDescription": ""
+    },
+    {
+      "path": "dreamhouse-lwc",
+      "package": "PackageNatou",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "namespace": "",
@@ -30,6 +38,7 @@
     "DreamhouseLWC": "0Ho3h000000PBghCAG",
     "DreamhouseLWC@59.0.0-1": "04t3h000001Rc2FAAS",
     "MyPackage": "0Ho1t0000004CX0CAM",
-    "NatouPackage": "0Ho1t0000004CX5CAM"
+    "NatouPackage": "0Ho1t0000004CX5CAM",
+    "PackageNatou": "0Ho1t0000004CXACA2"
   }
 }
