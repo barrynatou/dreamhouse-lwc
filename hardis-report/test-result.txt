@@ -1,0 +1,39 @@
+=== Test Summary
+NAME                 VALUE                        
+───────────────────  ─────────────────────────────
+Outcome              Passed                       
+Tests Ran            11                           
+Pass Rate            100%                         
+Fail Rate            0%                           
+Skip Rate            0%                           
+Test Run Id          7077Z00005lkGY4              
+Test Execution Time  4630 ms                      
+Org Id               00D7Z0000005MeOUAU           
+Username             test-vj7ha04kcnfc@example.com
+Org Wide Coverage    92%                          
+
+
+=== Test Results
+TEST NAME                                                 OUTCOME  MESSAGE  RUNTIME (MS)
+────────────────────────────────────────────────────────  ───────  ───────  ────────────
+GeocodingServiceTest.blankAddress                         Pass              34          
+GeocodingServiceTest.errorResponse                        Pass              7           
+GeocodingServiceTest.successResponse                      Pass              5           
+TestPropertyController.testGetPagedPropertyList           Pass              1926        
+TestPropertyController.testGetPicturesNoResults           Pass              60          
+TestPropertyController.testGetPicturesWithResults         Pass              578         
+TestSampleDataController.importSampleData                 Pass              754         
+FileUtilitiesTest.createFileFailsWhenIncorrectBase64Data  Pass              366         
+FileUtilitiesTest.createFileFailsWhenIncorrectFilename    Pass              81          
+FileUtilitiesTest.createFileFailsWhenIncorrectRecordId    Pass              484         
+FileUtilitiesTest.createFileSucceedsWhenCorrectInput      Pass              335         
+
+
+=== Apex Code Coverage by Class
+CLASSES               PERCENT  UNCOVERED LINES
+────────────────────  ───────  ───────────────
+FileUtilities         100%                    
+PropertyController    95%      26,31          
+PagedResult           100%                    
+GeocodingService      100%                    
+SampleDataController  100%                    
