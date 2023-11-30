@@ -35,10 +35,6 @@
   "namespace": "",
   "sourceApiVersion": "59.0",
   "packageAliases": {
-    "DreamhouseLWC": "0Ho3h000000PBghCAG",
-    "DreamhouseLWC@59.0.0-1": "04t3h000001Rc2FAAS",
-    "MyPackage": "0Ho1t0000004CX0CAM",
-    "NatouPackage": "0Ho1t0000004CX5CAM",
     "PackageNatou": "0Ho1t0000004CXACA2"
   }
 }
