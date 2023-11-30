@@ -6,12 +6,30 @@
       "package": "DreamhouseLWC",
       "versionName": "Winter '24",
       "versionNumber": "59.0.0.NEXT"
+    },
+    {
+      "path": "sfdx-source/apex-mocks",
+      "package": "MyPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
+    },
+    {
+      "path": "/config",
+      "package": "NatouPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "namespace": "",
   "sourceApiVersion": "59.0",
   "packageAliases": {
     "DreamhouseLWC": "0Ho3h000000PBghCAG",
-    "DreamhouseLWC@59.0.0-1": "04t3h000001Rc2FAAS"
+    "DreamhouseLWC@59.0.0-1": "04t3h000001Rc2FAAS",
+    "MyPackage": "0Ho1t0000004CX0CAM",
+    "NatouPackage": "0Ho1t0000004CX5CAM"
   }
 }
